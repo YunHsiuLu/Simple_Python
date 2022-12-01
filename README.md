@@ -26,8 +26,16 @@ Anaconda是一個虛擬環境，主要是為了python一系列套件而設計，
 然後等他跑綠條......（時間還蠻久的，不如就來聽首歌[愛人錯過](https://www.youtube.com/watch?v=6D79CYTxvOM)）<br>
 
 恭喜你，跑完綠條了！你打開"開始"會看到多出了一個anaconda的資料夾（由於開著"開始"就沒有辦法截圖）<br>
-裡面有：
+沒錯的話應該是寫著：Anaconda3 (64-bit)<br>
+裡面有：<br>
+1. Anaconda Navigator (anaconda3)：這個是anaconda的總管理介面，可以在這裡面看到所有有關anaconnda的軟體。
+2. Anaconda Powershell Prompt (anaconda3)：這個東西就類似於windows系統中的powershell。打開之後就會讓你變得很像駭客，當然，做的所有操作，都是在“虛擬環境”底下，所以不會影響到你的本機端。
+3. Anaconda Prompt (anaconda3)：這個東西就是windows中的cmd，你打開會發現怎麼跟前一個很像，對，真的很像，幾乎一樣。這你就要問問MSFT為什麼要設計兩個很像的終端機軟體= =白眼翻到後腦勺。
+4. Jupyter Notebook (anaconda3)：這個算是最重要的東西，使用jupyter的優點是，你執行程式的時候可以分成很多的區塊run，而且每個區塊都可以獨立執行，對於簡單的測試來說非常方便，更甚至可以將程式區塊設定成文字區塊進行很漂亮的註記。*缺點是：每個block都是互相干擾的。一般來說，程式的邏輯是由上到下的執行，上面定義的變數會因為下面的更改而改變數值；但在jupyter當中，變數數值更改的順序是依照你執行block的順序，也就是說，你上面有個變數a=5，下面你設定a=0，跑完下面再跑上面之後，a會是5而不是下面的0。*解決這個缺點的方法就是，每次執行jupyter都按runall，那如果這樣，為何要使用jupyter呢？而我是比較喜歡下一項。
+5. Spyder (anaconda3)：spyder就是一個功能齊全的python IDE，IDE指的是Integrated Development Environment，整合式開發環境。左邊是檔案編輯處，右上是幫你統整你現在的running process中的變數有什麼，右下則是python的對話介面，可以做些小小的測試用。<br>
+*注意！python的對話介面中所執行的所有指令，都沒有辦法儲存。*
 
+當你看到這裡，就代表你已經安裝完成！恭喜！
 
 # MacOS
 雖然anaconda適用於每個作業系統，又很簡單下載安裝，但內容物實在是過於繁雜（屁股有夠大），在mac中我習慣用終端機（terminal）下載比較乾淨的套件。<br>
