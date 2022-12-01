@@ -7,7 +7,13 @@
 
 在講義裡，並沒有說明如何下載，以及在各個作業系統中如何操作<br>
 所以我在底下先簡單扼要地說明：<br>
-[Windows](#); [MacOS](#os2); [Linux](#os3)
+[Windows](#Windows); [MacOS](#MacOs); [Linux](#Linux)
 
-# Windows {#os1}
+# Windows
 Windows作業系統：
+
+
+# MacOS
+
+
+# Linux
