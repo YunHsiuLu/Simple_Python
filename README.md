@@ -1,2 +1,4 @@
-# Simple_Python
-The course of Simple_Python recording
+# Simple Python
+這是2018年中央大學數學系教授 - 吳維漢老師與物理系教授 - 林宗泰老師合開的python課程，目的是要讓理學院與工學院同學對於修習微積分課程有更直覺的思維。
+
+![alt text](https://github.com/YunHsiuLu/Simple_Python/book.jpg)
