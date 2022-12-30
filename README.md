@@ -97,5 +97,5 @@ Linux系統的python安裝方式跟MacOS非常雷同，再次強調，anaconda�
 1. 打開Linux中的terminal
 2. 輸入`sudo apt-get install python`，這樣子就會預設安裝最新版本的python。同樣如果有需求安裝不同版本的python，就執行`sudo apt-get install pythonX.XX`
 3. 依照指示輸入y (就是yes的意思)，等他跑完就安裝完畢。
-4. 記得也要把pip抓下來，步驟參考[pip: python install package](#pip-1)
+4. 記得也要把pip抓下來，步驟參考[pip: python install package](#pip)
 
