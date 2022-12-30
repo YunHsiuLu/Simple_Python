@@ -83,4 +83,18 @@ ex. `$ brew install python3.10 -y`<br>
 2. 想辦法打開這個檔案然後編輯他，市面上有各式各樣的文字編輯器，我是用vim或是sublime text，如果你願意可以上網搜尋一下～～
 3. 儲存檔案之後，回到terminal執行`python3.10 example.py`
 
+### pip: python install package
+pip是專屬於python中安裝第三方套件的程式，在跑像是numpy、matplolib這類的程式時，必須要先在terminal裡面用pip安裝他們，但安裝python時並沒有預設給你pip，必須自行到網路上下載。<br>
+我已經有將get-pip.py放在上面，可以在這邊抓下來，或是依照以下步驟進行下載。
+1. 打開terminal
+2. `wget https://bootstrap.pypa.io/get-pip.py`
+3. 下載完畢後，用python執行它。`python3.10 get-pip.py`
+執行完畢後，假設想要安裝numpy這個套件，就執行`python3.10 -m pip install numpy`即可。
+
 # Linux
+Linux系統的python安裝方式跟MacOS非常雷同，再次強調，anaconda在任何系統都可以安裝，但我習慣在Linux跟macOS系統中使用終端機（terminal）打程式，所以以下還是只有分享如何在Linux terminal安裝python：<br>
+## apt-get
+1. 打開Linux中的terminal
+2. 輸入`sudo apt-get install python`，這樣子就會預設安裝最新版本的python。同樣如果有需求安裝不同版本的python，就執行`sudo apt-get install pythonX.XX`
+3. 依照指示輸入y (就是yes的意思)，等他跑完就安裝完畢。
+4. 記得也要把pip抓下來，步驟參考[pip](###pip)
