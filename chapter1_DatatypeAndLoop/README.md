@@ -13,17 +13,17 @@ a = 'abcde';
 ```
 但在python裏面，完全沒有在管你什麼資料型態，通通幫你把屎把尿（這邊其實有點類似javascript，但js還需要宣告`auto`）：
 ```python
-a = 0
-print(a) #回傳0
-a = 'abcde'
-print(a) #回傳字串的abcde
+>>> a = 0
+>>> print(a) #回傳0
+>>> a = 'abcde'
+>>> print(a) #回傳字串的abcde
 ```
 這時你應該也有發現，python裡面並沒有像c/c++或是matlab或是java一樣的結尾符號`;`。<br>
 沒錯！python是用“換行”作為結語的，若你想要換行但該行指令尚未結束，必須要在行尾加上反斜線`\`：
 ```python
-a = 'abcdef'\
-'ghijklmnop'\
-'qrstuvwxyz'
-print(a) #回傳a~z的字串
+>>> a = 'abcdef'\
+... 'ghijklmnop'\
+... 'qrstuvwxyz'
+>>> print(a) #回傳a~z的字串
 ```
 
